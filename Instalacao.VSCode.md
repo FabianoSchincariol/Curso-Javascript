@@ -40,6 +40,6 @@ https://code.visualstudio.com/Download
 
 - [ ] Babel Javascript
 
-- [ ] Sass/Less/Scss/Typescirpt
+[ ] Sass/Less/Scss/Typescirpt
 
-- [ ] 
+
