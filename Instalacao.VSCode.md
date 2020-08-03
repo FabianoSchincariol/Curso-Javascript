@@ -6,40 +6,40 @@ https://code.visualstudio.com/Download
 
 ### Extensões usadas:
 
-2077 theme -> tema muito interessante pelas cores para programar
+- [ ] 2077 theme -> tema muito interessante pelas cores para programar
 
-Auto Close Tag
+- [ ] Auto Close Tag
 
-Auto Rename Tag
+- [ ] Auto Rename Tag
 
-C# 
+- [ ] C# 
 
-C# Exntensions
+- [ ] C# Exntensions
 
-Code runner
+- [ ] Code runner
 
-Debugger for Chrome
+- [ ] Debugger for Chrome
 
-ESLint
+- [ ] ESLint
 
-Git History
+- [ ] Git History
 
-GitLens
+- [ ] GitLens
 
-Path Autocomplete
+- [ ] Path Autocomplete
 
-Power mode
+- [ ] Power mode
 
-TODO Highlight
+- [ ] TODO Highlight
 
-TODO List
+- [ ] TODO List
 
-Vscode-icons
+- [ ] Vscode-icons
 
-Handlebars
+- [ ] Handlebars
 
-Babel Javascript
+- [ ] Babel Javascript
 
-Sass/Less/Scss/Typescirpt
+- [ ] Sass/Less/Scss/Typescirpt
 
-
+- [ ] 
