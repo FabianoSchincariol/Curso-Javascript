@@ -250,4 +250,21 @@ let funcaoArrowSemParamentro = () =>
 
 ```
 
+#### Saída de Dados
 
+```Javascript
+
+//Dados de saída em uma caixa de alerta na janela do browser
+alert("mensagem")
+//Abre uma caixa de diálogo sim/não e retorna true ou false dependendo do clique do usuário
+confirm()
+//Grava informações para o console no navegador, e é ótimo para propositos de depuração e testes de código, evitando o uso na produção final
+console.log()
+//saída em forma de tabela no console do navegador
+console.table()
+//Escreve diretamente no documento HTML
+document.write()
+//Cria uma caixa de diálogo para a entrada do usuário
+prompt()
+
+```
