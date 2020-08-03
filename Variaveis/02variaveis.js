@@ -1,0 +1,12 @@
+var numero = 1;
+console.log("número-> " + numero);
+var valor = 1.50;
+console.log("valor-> " + valor);
+var meuNome = "Carlos Silva";
+console.log("Meu nome-> " + meuNome);
+var bolleano = true;
+console.log("boolean-> " + bolleano);
+var nulo = null;
+console.log("nulo-> " + nulo);
+var indefinido = undefined;
+console.log("indefinido-> " + indefinido);

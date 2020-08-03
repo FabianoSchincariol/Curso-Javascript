@@ -208,7 +208,7 @@ valueOf() // Retorna a primeira posição em que um determinado elemento aparece
 !
 ```
 
-#### Operadores bitwisw
+#### Operadores bitwise
 
 ```Javascript
 //AND-> e 
