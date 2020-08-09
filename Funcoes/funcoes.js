@@ -62,4 +62,10 @@ Com parâmetros pré definidos
     multiply(5, 2); // 10
     multiply(5, 1); // 5 
     multiply(5);    // 5
+
+    Não esquecendo do operador ternário que não deixa de ser uma função
+
+    let x = 5;
+    let y = 3;
+    let verdadeiro = x > y ? true : false;
 */
