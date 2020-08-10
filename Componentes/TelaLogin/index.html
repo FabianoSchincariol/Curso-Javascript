@@ -1,17 +1,74 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html><!--A declaração não é uma tag HTML. É uma "informação" para 
+    o navegador sobre qual tipo de documento esperar.-->
+    
+<!-- inicio da tag do html-->
+<html lang="pt-br"><!--declara o idioma da página da web e ajuda o mecanismo
+de pesquisa e nevagegadores-->
+
+<!-- ínicio da tag do head-->
 <head>
+    <!--a tag <meta> define metadados(dados sobre dados) nos documentos HTMLs-->
+    <!--o atributo charset -> padrão de codificação de caracteres-->
     <meta charset="UTF-8">
+    <!--atributos name viewmport é para aumntar ou diminuir a tela
+        sem necessidade de "espremer " o layout da página e content
+     é a configuração do device "dispositov e esclaa inicial 1.0-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--arquivos css
+    rel="stylesheet" é o relacionamento com o estilo da página
+    type="text/css" e do tipo texto em extensão css
+    e o href é o caminho do de ondes está o arquivo-->
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--título página-->
     <title>Login APP</title>
 </head>
+<!-- fim da tag do head-->
+    <div class="container" 
+         id="idContainer">
+        <div class="informacoesEmpresa"
+             id="idInformacoesEmpresa">
+             <div class="interiorInformacoes"
+                  id="idInteriorInformacoes">
+                <h2>Informações da Empresa</h2>
+                <ul class="informacoes">
+                    <li>
+                        <span><img src=""></span>
+                        <address>
+                            <a href="www.google.com.br"><h3>App Software</h3></a>
+                            Rua das Orquideas, nº 345<br>
+                            Centro<br>
+                            São Paulo - SP<br>
+                            CEP: 01234-012<br>
+                            Telefone: +55 (11) 4444-5555<br>
+                            email: <a href="email@emailempresaapp.com.br">
+                                   email@emailempresaapp.com.br</a>
+                        </address>
+                    </li>
+                </ul>
+                <ul class="redesSociais">
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Instagran</a></li>
+                    <li><a href="">Pinterest</a></li>
+                    <li><a href="">Linkedin</a></li>
+                    <li><a href="">Github</a></li>
+                </ul>
+             </div>
+        </div>
+    </div>
+<!-- ínicio da tag do body-->
 <body>
 
     <!--inicio -> Corpo da tela de login-->
 
     <!--fim -> Corpo da tela de login-->
 
+    <!--arquivos javascript
+    type é o tipo de texto e a extensão é javascript
+    e src é o caminho onde está o arquivo javascript-->
     <script type="text/javascript" src="scripts.js"></script>
+
 </body>
-</html>
+<!-- fim da tag do body-->
+
+</html><!-- fim da tag do html-->
