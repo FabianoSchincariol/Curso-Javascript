@@ -7,33 +7,47 @@ de pesquisa e nevagegadores-->
 
 <!-- ínicio da tag do head-->
 <head>
+    <!-- para usar icons do fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/20fc230f86.css">
+
     <!--a tag <meta> define metadados(dados sobre dados) nos documentos HTMLs-->
     <!--o atributo charset -> padrão de codificação de caracteres-->
     <meta charset="UTF-8">
+
     <!--atributos name viewmport é para aumntar ou diminuir a tela
         sem necessidade de "espremer " o layout da página e content
      é a configuração do device "dispositov e esclaa inicial 1.0-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!--arquivos css
     rel="stylesheet" é o relacionamento com o estilo da página
     type="text/css" e do tipo texto em extensão css
     e o href é o caminho do de ondes está o arquivo-->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">   
+
     <!--título página-->
     <title>Login APP</title>
+
 </head>
 <!-- fim da tag do head-->
     <section>
+
         <div class="container" 
          id="idContainer">
+
             <div class="informacoesEmpresa"
                 id="idInformacoesEmpresa">
+
                 <div class="interiorInformacoes"
                     id="idInteriorInformacoes">
                     
-                    <ul class="informacoes">
-                        <li>
-                            <span><img src=""></span>
+                    <i id="idLogo" class="fa fa-arrows-alt fa-5x"></i>                    
+                    
+                    <ul class="informacoes">                       
+                     
+                        
+                        <li>                       
+
                             <address>
                                 <a href="www.google.com.br"><h3>App Demo S/A</h3></a>
                                 <br>
@@ -46,46 +60,65 @@ de pesquisa e nevagegadores-->
                                 <a href="email@emailappdemo.com.br">
                                     email@emailappdemo.com.br</a>
                             </address>
+
                         </li>
+                       
                     </ul>
 
-                    <ul class="redesSociais">
-                        <li><a href="">Facebook</a></li>
-                        <li><a href="">Twitter</a></li>
-                        <li><a href="">Instagran</a></li>
-                        <li><a href="">Pinterest</a></li>
-                        <li><a href="">Linkedin</a></li>
-                        <li><a href="">Github</a></li>
+                    <ul class="redesSociais fa-ul">
+
+                        <li><a href=""><i class="fa-li fa fa-facebook fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa-li fa fa-twitter fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa-li fa fa-instagram fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa-li fa fa-youtube fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa-li fa fa-github fa-2x"></i></a></li>                        
+                        <li><a href=""><i class="fa-li fa fa-linkedin fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa-li fa fa-pinterest fa-2x"></i></a></li>                        
+
                     </ul>
 
                 </div>
+
             </div>
+
             <div class="formularioLogin"
                 id="idFormularioLogin">
+
                 <div class="inputFormularioLoginUsuario"
                     id="idInputUsuario">
+
                     <label for="usuario">Usuário</label> 
                     <input id="usuario" type="text" name="" required>  
                                      
                 </div>
+
                 <div class="inputFormularioLoginSenha"
                     id="idInputSenha">
+
                     <label for="password">Senha</label>
                     <input id="password" type="password" name="" required> 
                                        
                 </div>
+
                 <div class="inputFormularioBotaoEntrar"
                     id="idInputEntrar">
-                    <input type="submit" name="" value="ENTRAR">                
+
+                    <input type="submit" name="" value="ENTRAR"> 
+
                 </div>
+
                 <div class="formularioOutrasInformacoes"
                     id="idOutrasInformacoes">
+
                     <a href="">Esquece sua senha ?</a> 
                     <br>
                     <a href="">Cadastre-se !</a>               
                 </div>
+
             </div>
+
         </div>
+
     </section>
 <!-- ínicio da tag do body-->
 <body>
