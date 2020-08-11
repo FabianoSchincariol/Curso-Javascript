@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0F3859;
+}
+
+section::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #EF2E88;
+}
+
+section .container
+{
+    position: relative;
+    min-width: 1100px;
+    min-height: 650px;
+    display: flex;
+    z-index: 1000;
+}
+
+section .container 
+        .informacoesEmpresa
+{
+    position: absolute;
+    top: 40px;
+    width: 450px;
+    height: call(100% - 80px);
+    background: #0F3859;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+section .container 
+        .informacoesEmpresa 
+        .interiorInformacoes 
+        .informacoes 
+        li
+{
+    position: relative;
+    list-style: none;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+section .container
+        .informacoesEmpresa
+        .interiorInformacoes 
+        .informacoes 
+        li
+        address
+{
+    color: #FFFFFF;    
+    min-width: 30px;
+    margin-left: 10px;
+    font-weight: 300;
+    list-style: none;
+        
+}
+
+section .container
+        .informacoesEmpresa
+        .interiorInformacoes 
+        .informacoes 
+        li
+        address
+        a:link
+{
+    color: #FFFFFF; 
+    font-weight: 300;
+    text-decoration: none;
+        
+}
+
+section .container
+        .informacoesEmpresa
+        .interiorInformacoes 
+        .informacoes 
+        li
+        address
+        a:hover
+{
+    color:  #EF2E88;   
+        
+}
+
+section .container
+        .informacoesEmpresa
+        .interiorInformacoes 
+        .informacoes 
+        li
+        adress
+        img
+{
+    max-width: 100%;
+    filter: invert(1);
+    opacity: 0.5;
+}
+
+section .container
+        .informacoesEmpresa
+        .interiorInformacoes 
+        .redesSociais
+{
+    position: relative;
+    display: flex;
+}
+section .container
+        .informacoesEmpresa
+        .interiorInformacoes 
+        .redesSociais
+        li
+{
+    list-style: none;
+    padding: 2px;    
+}
+
+section .container
+        .informacoesEmpresa
+        .interiorInformacoes 
+        .redesSociais
+        li
+        a
+{
+    color: #FFFFFF; 
+    font-weight: 200;
+    text-decoration: none;
+}
+
+section .container
+        .informacoesEmpresa
+        .interiorInformacoes 
+        .redesSociais
+        li
+        a:hover
+{
+    color:  #EF2E88;     
+}
+
+
+section .container
+        .formularioLogin
+{
+    position: absolute;
+    padding: 170px 50px;
+    background: #169AFF;
+    margin-left: 160px;
+    padding-left: 300px;
+    width: calc(100% - 150px);
+    height: 100%;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+section .container
+        .formularioLogin
+        .inputFormularioLoginUsuario
+{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+section .container
+        .formularioLogin
+        .inputFormularioLoginSenha
+{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+section .container
+        .formularioLogin
+        .inputFormularioLoginUsuario
+        input
+{
+    width: 50%;
+    font-size: 300;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    outline: none;
+    background: #169AFF;
+}
+
+section .container
+        .formularioLogin
+        .inputFormularioLoginUsuario
+        label
+{
+    width: 55%;
+    font-size: 300;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    
+}
+
+section .container
+        .formularioLogin
+        .inputFormularioLoginSenha
+        input
+{
+    width: 50%;    
+    font-size: 300;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    outline: none;
+    background: #169AFF;
+}
+    
+section .container
+        .formularioLogin
+        .inputFormularioLoginSenha
+        label
+{
+    width: 55%;
+    font-size: 300;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+section .container
+        .formularioLogin
+        .inputFormularioBotaoEntrar
+{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px;
+    font-size: 500;
+    
+}
+
+section .container
+        .formularioLogin
+        .inputFormularioBotaoEntrar
+        input
+{
+    width: 50%;
+    padding: 15px 0;      
+    margin: 10px;
+    background: #EF2E88;
+    color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+section .container
+        .formularioLogin
+        .inputFormularioBotaoEntrar
+        input:hover
+{    
+    background: #0F3859;
+    color: #EF2E88;        
+}
+
