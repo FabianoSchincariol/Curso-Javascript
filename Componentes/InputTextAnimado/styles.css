@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.formulario{
+    width: 50%;
+    position: absolute;
+    height: 50px;
+    background: gray;
+    overflow: hidden;
+}
+
+.formulario input{
+    width: 100%;
+    height: 100%;
+    border: none;    
+    color: blue;
+    padding-top: 20px;
+    outline: none;
+}
+
+.formulario label{
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid black;
+}
+
+.formulario label::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid blue;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+}
+
+.coteudoInputFormulario{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: transform 0.3s ease;
+}
+
+.formulario 
+    input:focus + 
+    .labelInputFormulario 
+    .coteudoInputFormulario, 
+    .formulario input:valid + 
+    .labelInputFormulario 
+    .coteudoInputFormulario{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: red;
+}
+
+.formulario input:focus +
+    .labelInputFormulario::after,
+    .formulario input:valid +
+    .labelInputFormulario::after{
+        transform: translateX(0%);
+}
