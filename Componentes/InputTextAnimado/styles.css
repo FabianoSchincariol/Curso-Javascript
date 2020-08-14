@@ -1,79 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
-
 body{
-    height: 60vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: black;
 }
-
 .formulario{
-    width: 50%;
-    position: absolute;
-    height: 50px;
-    background: gray;
-    overflow: hidden;
+  width: 450px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
-
-.formulario input{
-    width: 100%;
-    height: 100%;
-    border: none;    
-    color: blue;
-    padding-top: 20px;
-    outline: none;
+.formulario .inputNome{
+  height: 40px;
+  width: 100%;
+  position: relative;
 }
-
-.formulario label{
-    position: absolute;
-    bottom: 0px;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    border-bottom: 1px solid black;
+.formulario .inputNome input{
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid silver;
 }
-
-.formulario label::after{
-    content: '';
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    height: 100%;
-    width: 100%;
-    border-bottom: 3px solid blue;
-    transform: translateX(-100%);
-    transition: all 0.3s ease;
+.inputNome input:focus ~ label,
+.inputNome input:valid ~ label{
+  transform: translateY(-20px);
+  font-size: 15px;
+  color: #4158d0;
 }
-
-.coteudoInputFormulario{
-    position: absolute;
-    bottom: 5px;
-    left: 0px;
-    transition: transform 0.3s ease;
+.formulario .inputNome label{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  color: grey;
+  pointer-events: none;
+  transition: all 0.3s ease;
 }
-
-.formulario 
-    input:focus + 
-    .labelInputFormulario 
-    .coteudoInputFormulario, 
-    .formulario input:valid + 
-    .labelInputFormulario 
-    .coteudoInputFormulario{
-    transform: translateY(-150%);
-    font-size: 14px;
-    color: red;
+.inputNome .linhaInferiorDoInput{
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  bottom: 0;
 }
-
-.formulario input:focus +
-    .labelInputFormulario::after,
-    .formulario input:valid +
-    .labelInputFormulario::after{
-        transform: translateX(0%);
+.inputNome .linhaInferiorDoInput:before{
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #4158d0;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+.inputNome input:focus ~ .linhaInferiorDoInput:before,
+.inputNome input:valid ~ .linhaInferiorDoInput:before{
+  transform: scaleX(1);
 }
