@@ -21,6 +21,10 @@
 [Freepik](https://br.freepik.com/)
 [Stories Freepik](https://stories.freepik.com/)
 
+### Sites para baixar icones
+[Font Awesome](https://fontawesome.com/icons?d=gallery)
+[Icons 8](https://icons8.com.br/)
+
 
 Para projetar o front end UI/UX
 
