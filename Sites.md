@@ -19,6 +19,7 @@
 
 ### Sites com vetores e animação de vetores, principalmente de personagens
 [Freepik](https://br.freepik.com/)
+[Stories Freepik](https://stories.freepik.com/)
 
 
 Para projetar o front end UI/UX
